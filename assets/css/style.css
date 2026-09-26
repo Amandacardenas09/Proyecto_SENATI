@@ -1,0 +1,28 @@
+/*el selector universal */
+
+   @font-face {
+    font-family: "PoppinsLocal";
+    src: url("../font/Poppins/Poppins-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+   } 
+/*luego aplicas todo el selector universal*/
+* {
+    font-family: "PoppinsLocal"; /*en el celular ponemos */
+    margin: 0; /**/
+    padding: 0; /**/
+    box-sizing: border-box; /**/
+}
+body{
+    background-color: #000000; /*color del fondo blanco*/
+}
+header{
+    background-color: #ffff; /*color del fondo negro*/
+    height: 55px; /*altura de la barra menú*/
+    display: flex;
+    padding: 0 16px;
+} /*class="img-logo"*/
+.img-logo{
+    height: 32px;
+}
